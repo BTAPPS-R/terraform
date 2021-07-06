@@ -8,3 +8,4 @@ terraform -help
 az command:
 $ curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
+az ad sp create-for-rbac -n terraform-spn
